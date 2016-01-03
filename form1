@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Sample Form</title>
+<link href="style.css" rel="stylesheet"> <!-- Include CSS File Here-->
+<script src="/server.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form action="http://127.0.0.1:8081/process_post" method="post">
+<h2>Sample Form</h2>
+<label>First Name :</label>
+<input id="fname" name="First Name" type="text">
+<br>
+<label>Last name :</label>
+<input id="lname" name="Last Name" type="Text">
+<br>
+<br>
+<label>Contact No. :</label>
+<input id="contact" name="contact" type="text">
+<br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+</body>
+</html>
